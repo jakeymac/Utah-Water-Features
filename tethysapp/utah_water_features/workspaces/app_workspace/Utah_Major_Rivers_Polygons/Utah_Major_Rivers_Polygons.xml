@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>UtahMajorRiversPoly</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>
+These data were extracted from the NHD in order to better represent the major rivers wider than 10 feet in Utah
+
+The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.)  Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.</abstract>
+            <purpose>
+To represent the major rivers wider than 10 feet in Utah with names and unique identifies that could be related to the NHD.
+
+The NHD is a national framework for assigning reach addresses to water-related entities, such as industrial discharges, drinking water supplies, fish habitat areas, wild and scenic rivers. Reach addresses establish the locations of these entities relative to one another within the NHD surface water drainage network, much like addresses on streets. Once linked to the NHD by their reach addresses, the upstream/downstream relationships of these water-related entities--and any associated information about them--can be analyzed using software tools ranging from spreadsheets to geographic information systems (GIS). GIS can also be used to combine NHD-based network analysis with other data layers, such as soils, land use and population, to help understand and display their respective effects upon one another. Furthermore, because the NHD provides a nationally consistent framework for addressing and analysis, water-related information linked to reach addresses by one organization (national, state, local) can be shared with other organizations and easily integrated into many different types of applications to the benefit of all.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>US</themekey>
+                <themekey>Water</themekey>
+                <themekey>SGID</themekey>
+                <themekey>UGRC</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The data, including but not limited to geographic data, tabular data, and analytical data, are provided &amp;quot;as is&amp;quot; and &amp;quot;as available&amp;quot;, with no guarantees relating to the availability, completeness, or accuracy of data, and without any express or implied warranties. These data are provided as a public service for informational purposes only. You are solely responsible for obtaining the proper evaluation of a location and associated data by a qualified professional. UGRC reserves the right to change, revise, suspend or discontinue published data and services without notice at any time. Neither UGRC nor the State of Utah are responsible for any misuse or misrepresentation of the data. UGRC and the State of Utah are not obligated to provide you with any maintenance or support. The user assumes the entire risk as to the quality and performance of the data. You agree to hold the State of Utah harmless for any claims, liability, costs, and damages relating to your use of the data. You agree that your sole remedy for any dissatisfaction or claims is to discontinue use of the data.This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>UtahMajorRiversPoly</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>ELEV</attrlabl>
+                <attrdef>Elevation of Feature if available</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WB_</attrlabl>
+                <attrdef>Waterbody #</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WB_ID</attrlabl>
+                <attrdef>Waterbody ID</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>COM_ID</attrlabl>
+                <attrdef>Unique Com ID used in the imbedded directional flow</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FTYPE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_ID</attrlabl>
+                <attrdef>Geographic Names Information Systems ID</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FType</attrlabl>
+                <attrdef>Feature Type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>RCH_COM_ID</attrlabl>
+                <attrdef>Unique Reach Com ID imbedded for directional flow</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STAGE</attrlabl>
+                <attrdef>Stage of feature when elevation was determined</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SQ_KM</attrlabl>
+                <attrdef>Square Kilometer of the Feature</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FCODE</attrlabl>
+                <attrdef>Code for the Feature Type</attrdef>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomvd>Complete list of FCode Definitions found in the Metadata properties</edomvd>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Name of Feature when available</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Area</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>NHDFlowlineToMeta</enttypl>
+            </enttyp>
+        </detailed>
+        <overview>
+            <eaover>The National Hydrography Dataset is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of water, paths through which water flows, and related entities.  The information encoded about features includes a feature date, classification by type, other characteristics, a unique common identifier, the feature length or area, and (rarely) elevation of the surface of water pools and a description of the stage of the elevation.  For reaches, encoded information includes a reach code.  Names and their identifiers in the Geographic Names Information System, are assigned to most feature types.  The direction of flow is encoded for networked features.  The data also contains relations that encode metadata, and information that supports the exchange of future updates and improvements to the data.  The names and  definitions of all feature types, characteristics, and values are in the Standards for National Hydrography Dataset:  Reston, Virginia, U.S. Geological Survey, 1999.  The document is available online through http://mapping.usgs.gov/standards/.</eaover>
+            <eadetcit>The names and definitions of all feature types, characteristics, and values are in U.S. Geological Survey, 1999, Standards for National Hydrography Dataset High Resolution:  Reston, Virginia, U.S. Geological Survey.  The document is available online through http://mapping.usgs.gov/standards/.  Information about tables and fields in the data are available from the user documentation for the National Hydrography Dataset at http://nhd.usgs.gov.  The National Map - Hydrography Fact Sheet is also available at: http://erg.usgs.gov/isb/pubs/factsheets/fs06002.html.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt/>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20191023</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

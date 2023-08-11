@@ -1,0 +1,29 @@
+{% extends "utah_water_features/base.html" %}
+{% load tethys_gizmos %}
+{% load static %}
+
+{% block header_buttons %}
+  <div class="header-button glyphicon-button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Help">
+    <a data-bs-toggle="modal" data-bs-target="#help-modal"><i class="bi bi-question-circle"></i></a>
+  </div>
+{% endblock %}
+
+{% block app_content %}
+  <div id="app-intro-container">
+      <h1 id="welcome-header">Welcome to my Tethys App!</h1>
+      <h3 id="lower-header">This is a tethys application developed by Jacob Johnson</h2>
+      <p class="line" id="line-1">It implements a map with a WMS and GeoJSON layer. The WMS layer highlights rivers and streams throughout Utah. The GeoJSON  </p>
+      <p class="line" id="line-2">layer highlights reservoirs throughout Utah. Users can select each reservoir and see info on it, along with a time series of the reservoir's  </p>
+      <p class="line" id="line-3">water levels over the past year. This project is inspired by Jacob's love of visiting and exploring the reservoirs of Utah with his wife, Teresa.</p>
+      <p class="line" id="line-4"><strong>Click 'map' to the left to get started!</strong></p>
+    
+      <h5 id="contact-info-content-box-header">Contact Info</h5>
+      <ul>
+        <li>Email: jmjohnson1578@gmail.com</li>
+        <li>Phone Number: 541-226-8349</li>
+        <li><a href="https://www.linkedin.com/in/jacob-johnson-294821251">Linkedin: </a></li>
+        <li><a href="https://www.github.com/jakeymac">Github</a></li>
+      </ul>
+  </div>
+
+{% endblock %}
