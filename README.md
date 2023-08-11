@@ -24,6 +24,6 @@ Email: jmjohnson1578@gmail.com
 
 Phone Number: 541-226-8349
 
-Linkedin:
-Github
+[Linkedin](www.linkedin.com/in/jacob-johnson-294821251)
+
 
