@@ -14,8 +14,11 @@ water levels over the past year. This project is inspired by my love of visiting
 
 
 Contact Info
+
 Email: jmjohnson1578@gmail.com
+
 Phone Number: 541-226-8349
+
 Linkedin:
 Github
 
