@@ -1,3 +1,3 @@
 # Utah-Water-Features
 
-!(Assets/application_screenshot.png)
+![application screenshot](Assets/application_screenshot.png)
